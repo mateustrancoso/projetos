@@ -1,58 +1,10 @@
 * {
-
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
-
-.nav-link {
-    padding: 15px;
-    font-size: 20px;
-}
-
-.navbar-brand {
-    font-size: 25px;
-}
-
-section {
-    padding: 80px 20px;
-    text-align: center;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    max-width: 400px;
-    margin: auto;
-}
-
-form label {
-    text-align: left;
-    margin-top: 10px;
-    font-weight: bold;
-}
-
-form input,
-form textarea {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-form button {
-    background: #ffca08;
-    color: white;
-    padding: 10px;
-    cursor: pointer;
-    border-radius: 5px;
-    margin-top: 12px;
-}
-
-form button:hover {
-    background: #1a4cd6;
+    font-family: Arial;
 }
 
 body {
-    background-color: rgba(96, 190, 252, 0.863);
+    background-color: rgba(0, 153, 255, 0.863);
 }
 
 h1 {
@@ -69,14 +21,51 @@ h2 {
     text-align: center;
 }
 
+b {
+    font-size: 30px;
+}
+
+p {
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    font-family: 'Arial';
+    text-align: center;
+}
+
+img {
+    width: 65%;
+    height: 65%;
+    border-radius: 10px;
+    display: flex;
+    margin: auto;
+    margin-top: 25px;
+}
+
+/*Barra de Navegação*/
+
+.nav-link {
+    padding: 15px;
+    font-size: 20px;
+}
+
+.navbar-brand {
+    font-size: 25px;
+}
+
+/*Lista*/
+
 .lista {
     text-align: center;
+    background-color: #4072fa;
+    border-radius: 15px;
+    padding: 30px 10px;
 }
 
 .lista ul {
     display: inline-block;
     text-align: justify;
     font-size: 25px;
+    color: #000000;
 }
 
 .lista p {
@@ -84,9 +73,10 @@ h2 {
     font-size: 27px;
 }
 
+/*Tabela*/
 
 table {
-    background-color: #2e5efc;
+    background-color: #4072fa;
     margin: 0 auto;
     width: 75%;
     border-collapse: collapse;
@@ -104,14 +94,15 @@ td {
     border-left: 2px solid #000000;
 }
 
+/*Nomes/Paragrafos*/
+
 .redentor {
     color: rgb(255, 255, 255);
     font-size: 45px;
 }
 
 .Predentor {
-    color: black;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Arial';
     font-size: 27px;
     text-align: center;
     margin: 50px;
@@ -123,7 +114,7 @@ td {
 }
 
 .Pcoliseu {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Arial';
     font-size: 27px;
     text-align: center;
     margin: 50px;
@@ -135,7 +126,7 @@ td {
 }
 
 .Ppetra {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Arial';
     font-size: 27px;
     text-align: center;
     margin: 50px;
@@ -147,7 +138,7 @@ td {
 }
 
 .Ptaj {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Arial';
     font-size: 27px;
     text-align: center;
     margin: 50px;
@@ -159,7 +150,7 @@ td {
 }
 
 .Pgmc {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Arial';
     font-size: 27px;
     text-align: center;
     margin: 50px;
@@ -171,7 +162,7 @@ td {
 }
 
 .Pci {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Arial';
     font-size: 27px;
     text-align: center;
     margin: 50px;
@@ -183,7 +174,7 @@ td {
 }
 
 .Pmp {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Arial';
     font-size: 27px;
     text-align: center;
     margin: 50px;
@@ -209,14 +200,77 @@ button:hover {
 
 }
 
-img {
-    width: 65%;
-    height: 65%;
+section {
+    padding:20px;
+    text-align: center;
+    background-color: #ffffff;
     border-radius: 10px;
-    display: flex;
     margin: auto;
-    margin-top: 25px;
+    width: 400px;
 }
+
+/*Contato*/
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+.spinner {
+  width: 16px;
+  height: 16px;
+  border: 2px solid transparent;
+  border-top-color: white;
+  border-radius: 50%;
+  animation: girar 0.6s linear infinite;
+}
+
+.oculto {
+  display: none;
+}
+
+form label {
+    text-align: left;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    border: 1px solid #474747;
+    border-radius: 5px;
+    background-color: #f3f3f3;
+}
+
+form button {
+    background: #23b100;
+    color: rgb(255, 255, 255);
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 12px;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+
+form button:hover {
+    background: #23b100;
+}
+
+#send.animacao {
+  transform: scale(0.95);
+  background-color: #096b00;
+}
+
+/*Rodapé*/
 
 .fhome {
     background-color: #353535;
@@ -241,15 +295,4 @@ img {
     list-style: none;
     padding: 5px;
     font-size: 25px;
-}
-
-b {
-    font-size: 30px;
-}
-
-p {
-    font-size: 35px;
-    color: rgb(0, 0, 0);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
 }
